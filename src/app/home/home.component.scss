@@ -16,3 +16,16 @@ span {
     margin-bottom: 2em;
   }
 }
+
+.active {
+  box-shadow: 2px 2px 2px black;
+
+  &--dynamic {
+    box-shadow: 2px 2px 2px black, 10px 10px 50px black;
+  }
+}
+
+.notactive {
+  background-color: blue !important;
+  color: white !important;
+}
