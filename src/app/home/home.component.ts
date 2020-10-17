@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styles: [':host {width: 100%}'],
 })
 export class HomeComponent implements OnInit {
-  clickCounter: number = 0;
+  clickCounter = 0;
+  name = '';
 
   constructor() {}
 
